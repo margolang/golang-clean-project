@@ -1,0 +1,9 @@
+{
+  "error.base.internal_error": "Внутренняя ошибка сервера",
+  "error.base.validation": "ошибка валидации",
+  "validation.should_min": "Количество символов должно быть не менее %s",
+  "validation.should_max": "Количество символов должно быть не более %s",
+  "validation.invalid_input_name_format": "Введите значение поля используя латинские буквы",
+  "error.application_not_found": "Заявка не найдена",
+  "validation.one_of": "Должен быть один из %s"
+}

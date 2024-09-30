@@ -1,0 +1,9 @@
+{
+  "error.base.internal_error": "Internal server error",
+  "error.base.validation": "validation error",
+  "validation.should_min": "The number of characters must be at least %s",
+  "validation.should_max": "The number of characters must be at most %s",
+  "validation.invalid_input_name_format": "Enter the field value using Latin letters",
+  "error.application_not_found": "Application not found",
+  "validation.one_of": "The value of this field must be equal to one of the provided options: %s"
+}

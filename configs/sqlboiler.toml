@@ -1,0 +1,21 @@
+output="./internal/model"
+pkgname="model"
+no-tests=true
+[psql]
+  dbname="presentation"
+  host="localhost"
+  port=5432
+  user="postgres"
+  pass="postgres"
+  sslmode="disable"
+  schema="public"
+  blacklist=["schema_migrations", "other"]
+[[types]]
+[types.match]
+type = "types.Decimal"
+
+[types.replace]
+type = "decimal.Decimal"
+
+[types.imports]
+third_party = ['"github.com/shopspring/decimal"']
